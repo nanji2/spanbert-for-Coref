@@ -13,3 +13,10 @@ python -W ignore predict.py spanbert_base sample.in.json out.txt
 
 Run the below code to show the F1 score:
 ```
+conda activate spanbert
+cd "/home/ruicheng/spanbert-coref-master_final_f1/"
+export data_dir=./data
+
+
+python -W ignore evaluate.py spanbert_base
+```
