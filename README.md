@@ -1,3 +1,5 @@
+Download pre-trained model in the "data" folder
+
 Run the below code to test input/output. the test sentence is in inputdata.py
 ```
 module load anaconda3/2020.11
